@@ -1,0 +1,57 @@
+{
+  "id": "2084013",
+  "name": "Cloud_disk",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "实训项目-企业云盘",
+  "glyphs": [
+    {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      "icon_id": "1262",
+      "name": "添加用户",
+      "font_class": "tianjiayonghu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "7409587",
+      "name": "批量导入",
+      "font_class": "piliangdaoru",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+>>>>>>> 0408787... xty2.0
+>>>>>>> 2cae486... xty2.0
+      "icon_id": "4329914",
+      "name": "用户管理",
+      "font_class": "yonghuguanli",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "4521283",
+      "name": "组织群组",
+      "font_class": "zuzhiqunzu",
+      "unicode": "ebd8",
+      "unicode_decimal": 60376
+    },
+    {
+      "icon_id": "6429423",
+      "name": "文件管理",
+      "font_class": "wenjianguanli",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "12323390",
+      "name": "回收站",
+      "font_class": "huishouzhan",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    }
+  ]
+}

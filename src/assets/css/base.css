@@ -1,0 +1,14 @@
+html,
+body {
+    background: rgb(244, 244, 244);
+    /* min-width: 992px; */
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.clearfix::before {
+    content: '';
+    clear: both;
+    display: block;
+}
