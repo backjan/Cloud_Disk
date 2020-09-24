@@ -16,13 +16,7 @@
                   <span class="glyphicon glyphicon-bell"></span>
                   信息中心<span class="badge">4</span></a>
                   <modal :myModal='myModel'>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
                     <span slot="modal-name">信息中心</span>
->>>>>>> 0408787... xty2.0
->>>>>>> 2cae486... xty2.0
                     <message slot="modal-body"></message>
                   </modal>
                   </li>

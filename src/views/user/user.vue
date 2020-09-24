@@ -6,13 +6,7 @@
     <li class="active">Data</li>
   </pathNav>
   <sortUser slot="main_sort"></sortUser>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
   <userAction slot="action_bar"></userAction>
->>>>>>> 0408787... xty2.0
->>>>>>> 2cae486... xty2.0
   <div slot="data_items" class="data_item">
       <table class="table table-hover table-responsive">
         <thead>
@@ -33,18 +27,6 @@
             <td>123</td>
             <td>123</td>
             <td>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 2cae486... xty2.0
-              <button type="button" class="btn btn-primary" data-toggle="modal" :data-target="'#'+myModel">修改</button>
-              <modal>
-                
-              </modal>
-              <button type="button" class="btn btn-danger">删除</button>
-<<<<<<< HEAD
-=======
-=======
               <button type="button" class="btn btn-primary" data-toggle="modal" :data-target="'#'+myModal">修改</button>
               <modal :myModal='myModal'>
                 <span slot="modal-name">修改用户信息</span>
@@ -52,8 +34,6 @@
                 <span slot="submit">修改</span>
               </modal>
               <button type="button" class="btn btn-danger" @click="confirm">删除</button>
->>>>>>> 0408787... xty2.0
->>>>>>> 2cae486... xty2.0
             </td>
           </tr>
         </tbody>
@@ -68,24 +48,12 @@ import mainBase from '../../components/main/mainBase'
 import pathNav from '../../components/common/path'
 import sortUser from './childrenUser/userSort'
 import modal from '../../components/common/modal'
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 import userAction from './childrenUser/userAction'
 import userUpdate from './childrenUser/userUpdate'
->>>>>>> 0408787... xty2.0
->>>>>>> 2cae486... xty2.0
 export default {
   name: 'mainUser',
   data(){
     return {
-<<<<<<< HEAD
-      myModel: 'user_update'
-=======
-<<<<<<< HEAD
-      myModel: 'user_update'
-=======
       myModal: 'user_update'
     }
   },
@@ -96,25 +64,15 @@ export default {
       }else{
         console.log('取消')
       }
->>>>>>> 0408787... xty2.0
->>>>>>> 2cae486... xty2.0
     }
   },
   components: {
     mainBase,
     sortUser,
     pathNav,
-<<<<<<< HEAD
-    modal
-=======
-<<<<<<< HEAD
-    modal
-=======
     modal,
     userAction,
     userUpdate
->>>>>>> 0408787... xty2.0
->>>>>>> 2cae486... xty2.0
   }
 }
 </script>

@@ -5,33 +5,15 @@ const slide = () =>
 const personalFile = () =>
     import ('../views/file/personalFile')
 const login = () =>
-<<<<<<< HEAD
     import ('../views/login/login.vue')
-=======
-<<<<<<< HEAD
-    import ('../views/login/login.vue')
-=======
-    import ('../components/login/login')
->>>>>>> 0408787... xty2.0
->>>>>>> 2cae486... xty2.0
 const user = () =>
     import ('../views/user/user')
 const account = () =>
     import ('../views/account/account')
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 2cae486... xty2.0
 const loginRebackPsw = ()=>
     import ('../views/login/loginRebackPsw.vue')
 const loginEdRebackPsw = ()=>
     import ('../views/login/logiinEdRebackPsw.vue')
-<<<<<<< HEAD
-=======
-=======
-
->>>>>>> 0408787... xty2.0
->>>>>>> 2cae486... xty2.0
 Vue.use(VueRouter)
 
 const routes = [{
@@ -43,10 +25,6 @@ const routes = [{
         component: login //登录界面路由
     },
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 2cae486... xty2.0
         path: '/rbPsw',
         component: loginRebackPsw //登录界面找回密码路由
     },
@@ -55,11 +33,6 @@ const routes = [{
         component: loginEdRebackPsw
     },
     {
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 0408787... xty2.0
->>>>>>> 2cae486... xty2.0
         path: '/slide',
         component: slide, //主页左侧边栏路由
         children: [{

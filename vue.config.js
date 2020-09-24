@@ -12,10 +12,6 @@ module.exports = {
             })
         ]
     },
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 2cae486... xty2.0
     devServer: {
         open: true, //是否自动弹出浏览器页面
         // host: "localhost", 
@@ -34,10 +30,4 @@ module.exports = {
           }
         },
       }
-<<<<<<< HEAD
-=======
-=======
-
->>>>>>> 0408787... xty2.0
->>>>>>> 2cae486... xty2.0
 }
